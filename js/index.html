@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    
+    <div class="red" style="width: 150px;height: 150px;"></div>
+    <button class="btnr">red</button>
+   <button class="btng">green</button>
+    <button class="btny">yellow</button>
+
+    <script>
+     $('.btnr').click(function(){
+    $('.red').css("background-color","red")
+     })
+     $('.btng').click(function(){
+    $('.red').css("background-color","green")
+     })
+     $('.btny').click(function(){
+    $('.red').css("background-color","yellow")
+     })
+
+     </script>
+</body>
+</html>
